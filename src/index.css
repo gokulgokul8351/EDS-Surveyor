@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.about-txt {
+  background-image: linear-gradient(90deg, #ff00d2, #fed90f, #00a2ff, #09f1b8);
+  background-clip: text;
+  -webkit-text-stroke-color: #09f1b8;
+  -webkit-text-stroke-width: calc(1em / 16);
+  -webkit-background-clip: text;
+  color: #fdfdff;
+  font-weight: 700;
+  padding: calc(calc(1em / 16) / 2);
+  letter-spacing: calc(1em / 8);
+  color: #e5e5eb;
+}
+
+.card-b {
+  /* background-color: #00a2ff; */
+  box-shadow: 0px 0px 6px gray, 0px 0px 6px gray, 0px 0px 6px rgba(0, 0, 0, 0.1);
+}

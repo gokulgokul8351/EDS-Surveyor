@@ -1,0 +1,197 @@
+.card {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: relative;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 350px;
+  border-radius: 6px;
+  transition: 0.3s;
+  background-color: #298;
+}
+
+.card-p {
+  position: absolute;
+  text-align: center;
+}
+
+.card::after {
+  content: '';
+  position: absolute;
+  z-index: -6;
+  border-radius: 6px;
+  width: 320px;
+  height: 370px;
+  background-color: #8ec5fc;
+  transition: 0.7s;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+
+.card-countent {
+  padding: 20px;
+  text-align: center;
+  color: transparent;
+  transition: all 0.7s;
+  opacity: 0;
+}
+
+.card:hover {
+  transition: 0.7s;
+  transform: rotate(180deg);
+}
+
+.card:hover > .card-p {
+  color: transparent;
+}
+
+.card:hover > .card-countent {
+  opacity: 1;
+  color: #000;
+  transform: rotate(-180deg);
+}
+
+/* work flow chat */
+
+.loader {
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border-top: 5px solid #e74c3c;
+  position: relative;
+  animation: load 2s linear infinite;
+}
+
+.loader::before,
+.loader::after {
+  content: '';
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+.loader::before {
+  border-top: 5px solid #e67e22;
+  transform: rotate(120deg);
+}
+
+.loader::after {
+  border-top: 5px solid #3498db;
+  transform: rotate(240deg);
+}
+
+.loader span {
+  position: absolute;
+  font-size: small;
+  width: 50px;
+  height: 50px;
+  /* color: #fff; */
+  text-align: center;
+  line-height: 100px;
+  animation: a2 2s linear infinite;
+}
+
+@keyframes load {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes a2 {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+/*  */
+
+.loaders {
+  width: 70px;
+  height: 220px;
+  background-image: linear-gradient(
+    to right bottom,
+    #000000,
+    #141414,
+    #202020,
+    #2d2d2d,
+    #3a3a3a
+  );
+  border: 5px solid black;
+  border-radius: 18px;
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.loaders-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.loaders-circle::after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  height: 80%;
+  width: 80%;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.5)
+  );
+  border-radius: 50%;
+}
+
+.loaders-circle:nth-child(1) {
+  background-color: red;
+  animation: changeGrayscale 1s linear infinite;
+  animation-delay: 0.15s;
+}
+
+.loaders-circle:nth-child(2) {
+  background-color: rgb(255, 200, 0);
+  animation: changeGrayscale 1s linear infinite;
+  animation-delay: 0.3s;
+}
+
+.loaders-circle:nth-child(3) {
+  background-color: rgb(36, 182, 0);
+  animation: changeGrayscale 1s linear infinite;
+  animation-delay: 0.45s;
+}
+.loaders-circle:nth-child(4) {
+  background-color: rgb(0, 146, 182);
+  animation: changeGrayscale 1s linear infinite;
+  animation-delay: 0.45s;
+}
+
+@keyframes changeGrayscale {
+  0%,
+  100% {
+    filter: brightness(0);
+    /* En grayscale al principio y al final */
+  }
+
+  50% {
+    filter: grayscale(0);
+    /* Sin grayscale en la mitad de la animación */
+  }
+}
