@@ -14,7 +14,7 @@ const Home = () => {
       <section
         // style={{ border: '4px solid lightgreen' }}
         id="home"
-        className="py-5 mx-4 border-[2px] my-8 "
+        className="py-5 mx-4 my-8 "
       >
         <div className=" container flex flex-wrap items-center justify-center mx-auto md:px-12 md:flex-row ">
           <div
@@ -51,7 +51,6 @@ const Home = () => {
       <About />
       <Services />
       <Blogs />
-      {/* <Clients /> */}
       <Testimonials />
       <Footer />
     </>

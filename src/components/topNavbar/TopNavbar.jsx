@@ -7,11 +7,11 @@ const TopNavbar = () => {
   const [open, setOpen] = useState(false)
 
   let Links = [
-    { name: 'Home', path: '/' },
-    { name: 'Service', path: '/service' },
-    { name: ' About', path: '/about' },
-    { name: ' Blogs', path: '/blogs' },
-    { name: ' Contact', path: '/contact' },
+    { name: 'Home', path: '#home' },
+    { name: 'Service', path: '#services' },
+    { name: ' About', path: '#about' },
+    { name: ' Blogs', path: '#blogs' },
+    { name: ' Contact', path: '#footer' },
   ]
 
   return (
