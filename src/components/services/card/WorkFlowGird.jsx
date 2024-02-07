@@ -10,7 +10,7 @@ const WorkFlowGird = () => {
           Work Flow
         </h1>
 
-        <div>
+        <div className=" relative -z-30 ">
           <div className=" flex justify-center rotate-[270deg] scale-50  p-0 m-[-152px] ml-[-510px] ">
             <div className="loaders">
               <div className="loaders-circle"></div>
@@ -42,7 +42,7 @@ const WorkFlowGird = () => {
                   className={`flex justify-center items-center text-white  w-[40px] h-[40px] text-center rounded-[50%]`}
                 >
                   <span>
-                    <div className="loader mb-8 ">
+                    <div className="loader mb-8 relative -z-30">
                       <span className=" text-black "></span>
                     </div>
                   </span>

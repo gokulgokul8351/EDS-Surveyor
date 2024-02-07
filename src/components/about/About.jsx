@@ -35,17 +35,25 @@ const About = () => {
         {/* right side */}
 
         <div className="w-1/2 flex flex-col mb-14 lg:mb-4 lg:w-1/2 gap-4 ">
-          <h4 className=" text-[1.5rem] text-gray-500 ">About Us</h4>
-          <h1 className="text-[3rem] max-sm:text-[2rem] ">
-            <span className="text-gray-900 text about-txt ">EDS</span> -{' '}
-            <span className=" text-pink-600 ">{text}</span>
+          <h4 className=" text-[1.5rem] max-[400px]:text-[1.2rem] text-gray-500 ">
+            About Us
+          </h4>
+          <h1 className="text-[1rem] max-sm:text-[2rem] max-[400px]:text-[1rem] ">
+            <span className="text-gray-900 text about-txt max-[400px]:text-[1.2rem] text-[2rem] ">
+              EDS
+            </span>{' '}
+            -{' '}
+            <span className=" text-pink-600 text-[2rem] max-[400px]:text-[1.2rem] ">
+              {text}
+            </span>
             <Cursor
+              // className="max-[400px]:text-[1.2rem]"
               cursorBlinking="1"
               cursorStyle=" | "
               cursorColor=" #ff014 "
             />
           </h1>
-          <h2 className=" text-[1.5rem] max-sm:text-[1.2rem] ">
+          <h2 className=" text-[1.5rem] max-sm:text-[1.2rem] max-[400px]:text-[1rem] ">
             <span className=" text-[2.5rem] mr-2 text-fuchsia-600 ">
               <Cursor
                 cursorBlinking="1"
@@ -55,7 +63,7 @@ const About = () => {
             We are having 10+ years experience in surveyor side most valuable at
             right selection me.
           </h2>
-          <p className=" text-[0.8rem]  ">
+          <p className=" text-[0.8rem] max-[400px]:text-[0.7rem]  ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
             perspiciatis veniam praesentium aliquam debitis ea doloremque
             pariatur optio natus dolor incidunt quas fugiat, ipsa veritatis

@@ -16,21 +16,21 @@ const TopNavbar = () => {
 
   return (
     <header
-      className=" shadow-md w-full fixed top-0 left-0 mx-6 my-2"
-      style={{ borderBottom: '2px solid gray' }}
+      className=" shadow-md w-[100vw] fixed top-0 left-0 mx-6 my-2"
+      style={{ borderBottom: '2px solid gray  ' }}
     >
       <div className=" md:flex items-center justify-between bg-white/80 py4 md:px-10 px-7 md:py-6 py-5  ">
-        <div className=" cursor-pointer flex items-center  ">
+        <div className=" cursor-pointer flex items-center ">
           <Logo />
         </div>
         <div
           onClick={() => setOpen(!open)}
-          className=" text-3xl absolute right-8 top-6 cursor-pointer md:hidden "
+          className=" text-3xl absolute right-8 mr-8 top-6 cursor-pointer md:hidden "
         >
           {open ? (
-            <GiHamburgerMenu style={{ fontSize: '2.3rem' }} />
-          ) : (
             <GrClose />
+          ) : (
+            <GiHamburgerMenu style={{ fontSize: '2.3rem' }} />
           )}
         </div>
         <ul

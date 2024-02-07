@@ -8,7 +8,7 @@ const Services = () => {
     <>
       <section
         id="services"
-        className=" w-full h-[60%] py-5 mt-6 mx-4 mr-8 border-[2px] flex justify-center items-center border-green-500 my-8  "
+        className=" w-full h-[60%] py-5 px-5 mt-6  border-[2px] flex justify-center items-center border-green-500 my-5 mx-4 "
       >
         <div className=" py-2 text-center ">
           <div className=" px-auto max-w-7xl mx-6 sm:px-8 md:px-12 ">

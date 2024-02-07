@@ -148,3 +148,167 @@ export const workFlowChat = [
     bg: ' bg-green-400 ',
   },
 ]
+
+// work flow end
+
+// testimonial st
+
+import samplePic1 from '../assets/eds img/11.jpg'
+import samplePic2 from '../assets/eds img/12.jpg'
+import samplePic3 from '../assets/eds img/13.jpg'
+import samplePic4 from '../assets/eds img/14.jpg'
+import samplePic5 from '../assets/eds img/15.jpg'
+import samplePic6 from '../assets/eds img/16.jpg'
+import samplePic7 from '../assets/eds img/17.jpg'
+import samplePic8 from '../assets/eds img/18.jpg'
+import samplePic9 from '../assets/eds img/19.jpg'
+import samplePic10 from '../assets/eds img/20.jpg'
+
+export const reviewDetails = [
+  {
+    img: samplePic1,
+    title: 'Road Survey',
+    review: 'LIC Head office project',
+  },
+  {
+    img: samplePic2,
+    title: 'Road Survey',
+    review: 'LIC Head office project',
+  },
+
+  {
+    img: samplePic3,
+    title: 'Road Survey',
+    review: 'LIC Head office project',
+  },
+  {
+    img: samplePic4,
+    title: 'Road Survey',
+    review: 'LIC Head office project',
+  },
+  {
+    img: samplePic5,
+    title: 'Road Survey',
+    review: 'LIC Head office project',
+  },
+  {
+    img: samplePic6,
+    title: 'Road Survey',
+    review: 'LIC Head office project',
+  },
+
+  {
+    img: samplePic7,
+    title: 'Road Survey',
+    review: 'LIC Head office project',
+  },
+  {
+    img: samplePic8,
+    title: 'Road Survey',
+    review: 'LIC Head office project',
+  },
+  {
+    img: samplePic9,
+    title: 'Road Survey',
+    review: 'LIC Head office project',
+  },
+  {
+    img: samplePic10,
+    title: 'Road Survey',
+    review: 'LIC Head office project',
+  },
+]
+
+// clients
+
+import client1 from './../assets/clints/alexander-shatov-Cys3W7_MXDU-unsplash.jpg'
+import client2 from './../assets/clints/andrea-de-santis-kWgKV2i9Xec-unsplash.jpg'
+import client3 from './../assets/clints/damian-barczak-U9E423m3Hd8-unsplash.jpg'
+import client4 from './../assets/clints/francais-a-londres-8PloBSivq_8-unsplash.jpg'
+
+export const clientsData = [
+  {
+    id: 501,
+    img: client1,
+  },
+  {
+    id: 502,
+    img: client2,
+  },
+  {
+    id: 503,
+    img: client3,
+  },
+  {
+    id: 504,
+    img: client4,
+  },
+]
+
+// footer contents st
+
+export const BRAND = [
+  {
+    title: 'EDS Land Surveyors',
+    content: `EDS Land Surveyors, a team of experts dedicated to providing quality and affordable digital land surveying services.`,
+  },
+]
+
+export const RESOURCES = [
+  {
+    title: 'Resources',
+  },
+  { name: 'Home', link: '/' },
+  { name: 'Who we Are', link: '#' },
+  { name: 'What We Do', link: '#' },
+  { name: 'Our Work', link: '#' },
+  { name: `Let's Talk`, link: '#' },
+]
+
+export const OFFICE = [
+  {
+    title: 'Head Office',
+  },
+  {
+    address: `
+          Magudanchavadi,
+          Sngakiri(dk),
+          Salem(Dt),
+          Salem - 637 103.
+         `,
+  },
+  {
+    contact1: '+91 96298 38220 ',
+    link: '+91 96298 38220 ',
+  },
+  { contact2: '+91 86080 65978', link: '+91 86080 65978' },
+  {
+    email: ' earthdigitalsurvey@gmail.com',
+    link: ' earthdigitalsurvey@gmail.com',
+  },
+]
+
+import { BsWhatsapp } from 'react-icons/bs'
+import { FaFacebook } from 'react-icons/fa'
+import { FaInstagram } from 'react-icons/fa'
+
+export const MEDIA = [
+  {
+    icon: <BsWhatsapp />,
+    name: `What's App`,
+    link: '#',
+    color: '#289',
+  },
+  {
+    icon: <FaFacebook />,
+    name: 'Face Book',
+    link: '#',
+  },
+  {
+    icon: <FaInstagram />,
+    name: 'Instagram',
+    link: '#',
+  },
+]
+
+// footer contents end
