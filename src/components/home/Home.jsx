@@ -5,10 +5,8 @@ import HeroImg from '../../assets/local/sur13.jpg'
 import About from '../about/About'
 import Services from '../services/Services'
 import Blogs from '../blog/Blogs'
-import Clients from '../client/Clients'
 import Testimonials from '../testimonials/Testimonials'
 import Footer from '../footer/Footer'
-// import HeroImg from '../../assets/bgimg/planingnew.png'
 
 const Home = () => {
   return (
@@ -16,14 +14,14 @@ const Home = () => {
       <section
         // style={{ border: '4px solid lightgreen' }}
         id="home"
-        className="py-5 mt-[10%] mx-4 border-[2px] border-green-600 my-8 "
+        className="py-5 mx-4 border-[2px] my-8 "
       >
-        <div className=" container flex flex-wrap items-center justify-center mx-auto mt-8 md:px-12 md:flex-row ">
+        <div className=" container flex flex-wrap items-center justify-center mx-auto md:px-12 md:flex-row ">
           <div
             className=" flex justify-center flex-col items-center mb-14 lg:mb-0 lg:w-1/2  max-[1000px]:mt-[4rem] "
             // style={{ border: '4px solid red' }}
           >
-            <h1 className=" max-w-xl text-[2.9rem] leading-none text-gray-700 font-extrabold font-sans text-center lg:text-5xl lg:text-left lg:leading-tight mb-5 mt-[-2rem] max-sm:mt-[4rem]  ">
+            <h1 className=" max-w-xl text-[2.9rem] leading-none text-gray-700 font-extrabold font-sans text-center lg:text-5xl lg:text-left lg:leading-tight mb-5 mt-[-2rem] max-sm:mt-[1rem] md:mt-4  ">
               Land Surveyor
             </h1>
             <p className="max-w-xl text-center text-gray-500 lg:text-left lg:max-w-md ">

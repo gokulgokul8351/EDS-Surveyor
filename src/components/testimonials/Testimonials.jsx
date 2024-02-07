@@ -5,8 +5,6 @@ import sample3 from '../../assets/eds img/3.jpg'
 import sample4 from '../../assets/eds img/4.jpg'
 
 const Testimonials = () => {
-  
-
   let [img, setImg] = useState(0)
   let autoImg = [sample1, sample2, sample3, sample4]
 
@@ -21,16 +19,12 @@ const Testimonials = () => {
   return (
     <>
       <section
-        // style={{ border: '4px solid lightgreen' }}
-        id="home"
-        className="py-5 mt-[10%] mx-4 border-[2px] border-green-600 my-8 "
+        id="testimonial"
+        className="py-5 mx-4 my-8 "
       >
-        <div className=" container flex flex-wrap items-center justify-center mx-auto mt-10 md:px-12 md:flex-row ">
-          <div
-            className=" flex justify-center flex-col items-center mb-6 lg:mb-0 lg:w-1/2 "
-            // style={{ border: '4px solid red' }}
-          >
-            <h1 className=" max-w-xl text-[2.9rem]  max-sm:text-[1.5rem] leading-none text-gray-700 font-extrabold font-sans text-center lg:text-5xl lg:text-left lg:leading-tight mb-5 mt-[-2rem] max-sm:mt-[4rem] ">
+        <div className=" my-6 container flex flex-wrap items-center justify-center mx-auto md:px-12 md:flex-row -mt-10 border-[2px] border-green-600 pb-4 ">
+          <div className=" flex justify-center flex-col items-center mb-6 lg:mb-0 lg:w-1/2 ">
+            <h1 className=" max-w-xl text-[2.9rem]  max-sm:text-[1.5rem] leading-none text-gray-700 font-extrabold font-sans text-center lg:text-5xl lg:text-left lg:leading-tight mb-5 mt-6 max-sm:mt-[4rem] ">
               Providing High Quality & Affordable Services
             </h1>
             <p className="max-w-xl text-gray-500 max-sm:text-[0.8rem] lg:text-left lg:max-w-md ">
@@ -50,7 +44,6 @@ const Testimonials = () => {
             // style={{ border: '4px solid blue' }}
           >
             <img
-              className=" "
               id="auto"
               src={autoImg[img]}
               alt={`Image ${img + 1}`}

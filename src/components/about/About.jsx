@@ -20,7 +20,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className=" my-5 mx-4 border-[2px] border-red-500 "
+      className=" my-5 mx-4 "
     >
       <div className="container flex items-center justify-center mx-auto mt-10  md:px-12 sm:flex-row max-sm:flex-col flex-col">
         {/* left side */}
