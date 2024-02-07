@@ -16,7 +16,7 @@ const TopNavbar = () => {
 
   return (
     <header
-      className=" shadow-md w-[100vw] fixed top-0 left-0 mx-6 my-2"
+      className=" shadow-md w-[100vw] sticky z-10 top-0 left-0 mx-6 my-2"
       style={{ borderBottom: '2px solid gray  ' }}
     >
       <div className=" md:flex items-center justify-between bg-white/80 py4 md:px-10 px-7 md:py-6 py-5  ">

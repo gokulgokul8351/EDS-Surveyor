@@ -160,9 +160,9 @@ import samplePic4 from '../assets/eds img/14.jpg'
 import samplePic5 from '../assets/eds img/15.jpg'
 import samplePic6 from '../assets/eds img/16.jpg'
 import samplePic7 from '../assets/eds img/17.jpg'
-import samplePic8 from '../assets/eds img/18.jpg'
-import samplePic9 from '../assets/eds img/19.jpg'
-import samplePic10 from '../assets/eds img/20.jpg'
+import samplePic8 from '../assets/eds img/1.jpg'
+import samplePic9 from '../assets/eds img/2.jpg'
+import samplePic10 from '../assets/eds img/4.jpg'
 
 export const reviewDetails = [
   {

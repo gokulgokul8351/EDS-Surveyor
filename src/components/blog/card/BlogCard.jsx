@@ -11,6 +11,8 @@ const BlogCard = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
   }
   const settings2 = {
     dots: true,
@@ -18,11 +20,13 @@ const BlogCard = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    autoplay: true, // Enable autoplay
+    autoplaySpeed: 3000,
   }
   return (
     <>
-      <div className=" lg:w-3/4 h-1/3 m-auto  ">
-        <div className=" mt-10 relative -z-10 ">
+      <div className=" lg:w-3/4 md:w-[100vw] h-1/3 m-auto   ">
+        <div className=" mt-10 relative ">
           <Slider
             {...settings2}
             className={` max-[400px]: ? ${{ ...settings1 }} `}
